@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jude's Recipe Book</title>
+    <link rel = "stylesheet" href = "styles.css">
+
 </head>
 <body>
-    <em><h1>Jude's Recipe Book</h1></em>
-    <menu>
-        <li><a href ="./recipes/marks_pancake_recipe.html">Mark's Pancake Recipe</a></li>
-        <li><a href ="./recipes/juds_proteinshake_recipe.html">Jude's Protein Shake Recipe</a></li>
-    </menu>
+    <em><h1 class = "font center background">Jude's Recipe Book</h1></em>
+    <img src = "./images/markspancakes.jpg" height = "200px" width = "200px">
+     <!-- cant get the bullet points to center, only the text-->
+     <!-- update!!!!, I was able to get the bullet points to center by deleting the "menu" element
+    only keeping the list item elements and having them centered--> 
+        <p id = "center" class = "fontsize"> 
+            <a class = "background font" href ="./recipes/marks_pancake_recipe.html">Mark's Pancake Recipe</a>
+        </p>
+        <p id = "center" class = "fontsize"> 
+            <a class = "background font" href ="./recipes/juds_proteinshake_recipe.html">Jude's Protein Shake Recipe</a>
+        </p>
+
+    <img src = "./images/judesshake.jpg" height = "200px" width = "200px">
 
 </body>
 </html>
